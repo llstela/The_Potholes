@@ -9,4 +9,5 @@
     conda config --set ssl_verify false
 # 使用时候的注意事项
   使用conda安装的时候一定要把VPN给关了，不然也会出现一堆错误。
+  
   遇到问题，首先关闭VPN，再排查错误。
