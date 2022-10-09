@@ -26,7 +26,7 @@
   
   ![image](https://github.com/llstela/Anaconda_Exp/blob/main/images/Mirror.png)
   
-  清华源可能会报HTTPError，可以添加如下命令(但是这样做是否安全有待商榷)
+  清华源可能会报HTTPError，可以把镜像源中的https改成http(但是这样做可能不安全，有待商榷)，建议是放弃清华源...
   
 # 关于使用conda install奇奇怪怪的报错
   一键重开(**真的救了我大命，不然真的要麻了...**)：
