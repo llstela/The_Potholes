@@ -4,6 +4,7 @@
     https://blog.csdn.net/ligous/article/details/124209700
 # 镜像源的配置：
   **不建议使用清华源**，自己和周围人对清华源的体验都是说有很多坑.
+  
   2022.10.10: 尝试使用BFSU的镜像源，目前体验良好。
   
     channels:
@@ -22,8 +23,10 @@
       pytorch-lts: https://mirrors.bfsu.edu.cn/anaconda/cloud
       simpleitk: https://mirrors.bfsu.edu.cn/anaconda/cloud
   想使用别的镜像源但不会用，请找这个按钮：
-  ![](https://github.com/llstela/Anaconda_Exp/blob/main/images/Mirro.png)
-  如果无法使用，常常会报HTTPError，可以添加如下命令(但是这样做是否安全有待商榷)
+  
+  ![image](https://github.com/llstela/Anaconda_Exp/blob/main/images/Mirror.png)
+  
+  清华源可能会报HTTPError，可以添加如下命令(但是这样做是否安全有待商榷)
   
 # 关于使用conda install奇奇怪怪的报错
   一键重开(**真的救了我大命，不然真的要麻了...**)：
