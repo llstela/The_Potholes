@@ -3,6 +3,7 @@
 # 常用命令：
     https://blog.csdn.net/ligous/article/details/124209700
 # 镜像源的配置：
+  不建议使用清华源，同学说总是有很多bug
     https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
   如果无法使用，常常会报HTTPError，可以添加如下命令(但是这样做是否安全有待商榷)
   
