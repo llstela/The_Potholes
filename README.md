@@ -21,7 +21,10 @@
       pytorch: https://mirrors.bfsu.edu.cn/anaconda/cloud
       pytorch-lts: https://mirrors.bfsu.edu.cn/anaconda/cloud
       simpleitk: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  想使用别的镜像源但不会用，请找这个按钮：
+  
   如果无法使用，常常会报HTTPError，可以添加如下命令(但是这样做是否安全有待商榷)
+  
 # 关于使用conda install奇奇怪怪的报错
   一键重开(**真的救了我大命，不然真的要麻了...**)：
   
