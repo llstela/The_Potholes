@@ -1,6 +1,6 @@
 # 在Anaconda踩过的坑
   觉得自己很有必要记录一下自己经常踩的坑和常用到的资料。
-## 常用命令：
+## Anaconda常用命令：
     https://blog.csdn.net/ligous/article/details/124209700
 ## 服务器常用命令(基于Anaconda)：
     https://blog.csdn.net/m0_53065609/article/details/123432168
