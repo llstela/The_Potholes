@@ -8,4 +8,4 @@
 众里寻他千百度，不如看文档: [Official Doc](https://github.com/llstela/The_Potholes/blob/main/OfficialDoc.md)
 
 ## tmux 常用指令
-连接服务器常用: [https://github.com/llstela/The_Potholes/blob/main/tmux_cmd.md]
+连接服务器常用: [Tmux_CMD](https://github.com/llstela/The_Potholes/blob/main/tmux_cmd.md)
