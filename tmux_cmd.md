@@ -1,5 +1,5 @@
 ## 参考了这篇博客
-    https://blog.csdn.net/qq_38156104/article/details/125093656
+    https://www.ruanyifeng.com/blog/2019/10/tmux.html
 ## 常用快捷键
     Ctrl+b %：划分左右两个窗格。
     Ctrl+b "：划分上下两个窗格。
