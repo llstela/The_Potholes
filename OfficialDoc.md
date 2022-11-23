@@ -12,3 +12,6 @@
     
 ## PyTorch
     https://pytorch.org/docs/stable/index.html
+
+## OpenCV
+    https://docs.opencv.org/4.1.2/
