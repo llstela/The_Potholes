@@ -15,3 +15,10 @@
 
 ## OpenCV
     https://docs.opencv.org/4.1.2/
+
+## Python
+Python官方文档，包括内置的标准库的使用
+  
+    https://docs.python.org/3/library/index.html
+    https://docs.python.org/3/index.html
+    
