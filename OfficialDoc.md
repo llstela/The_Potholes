@@ -13,7 +13,8 @@
 ## PyTorch
     https://pytorch.org/docs/stable/index.html
 ## PyTorch-lightning
-        implement PyTorch in a more elegant way:
+implement PyTorch in a more elegant way:
+    
     https://pytorch-lightning.readthedocs.io/en/stable/
 ## OpenCV
     https://docs.opencv.org/4.1.2/
