@@ -2,13 +2,14 @@
 ## Docker
     https://docs.docker.com/
     
-    https://yeasy.gitbook.io/docker_practice/
-## Numpy
+  中文教程
 
+    https://yeasy.gitbook.io/docker_practice/
+    
+## Numpy
     https://numpy.org/doc/stable/index.html
 
 ## DGL
-  
     https://docs.dgl.ai/guide_cn/index.html
     
 ## pytorch-geometric
@@ -16,10 +17,12 @@
     
 ## PyTorch
     https://pytorch.org/docs/stable/index.html
+    
 ## PyTorch-lightning
 implement PyTorch in a more elegant way:
     
     https://pytorch-lightning.readthedocs.io/en/stable/
+    
 ## OpenCV
     https://docs.opencv.org/4.1.2/
 
