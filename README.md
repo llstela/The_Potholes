@@ -9,3 +9,7 @@
 
 ## tmux 常用指令
 连接服务器常用: [Tmux_CMD](https://github.com/llstela/The_Potholes/blob/main/tmux_cmd.md)
+
+## 镜像源
+推荐使用 北京外国语大学 的镜像，无论是conda、ubuntu、pypi的镜像源都很可靠：
+https://mirrors.bfsu.edu.cn/
