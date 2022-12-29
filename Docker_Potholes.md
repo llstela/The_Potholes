@@ -60,7 +60,7 @@
     Docker
     Remote Development
 
-进入Docker的插件页面，选择对应容器，就可以用VSCode打开它。
+进入Docker或Remote的插件页面，选择对应容器，就可以用VSCode打开它。
 
 ## 参考资料：
 1. Docker中安装Anaconda：
