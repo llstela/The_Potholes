@@ -23,7 +23,7 @@
 
 ## 在Docker上使用Anaconda
 
-下面介绍的方法是从CUDA开始安装Anaconda，搭完环境之后才发现 continuumio/anaconda3 就可以直接用torch+GPU...
+下面介绍的方法是从CUDA开始安装Anaconda，搭完环境之后才发现 continuumio/anaconda3 就可以直接用torch+GPU，不过该镜像是基于debian，而下面的方法可以获得基于ubuntu的anaconda
 1. 使用NVIDIA官方镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/)
 
         docker pull nvidia/cuda:11.3.1-cudnn8-runtime-ubuntu20.04
