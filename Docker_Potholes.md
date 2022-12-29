@@ -6,6 +6,7 @@
 
 对镜像的操作:
 
+      (不建议使用docker run，建议使用docker-compose up -d)
       docker run -p 10789:22  -it --name="sxh_conda_1131" --runtime=nvidia -v ~/coding_docker:/coding 3fb93e546a31 /bin/bash  # 实例化 --runtime=nvidia
       docker image rm
       docker images
@@ -34,11 +35,11 @@
 
 3. docker-compose相关的操作命令在docker-compose.yml已经给出。
 
-    例如，如下命令启动docker容器：
+    例如，如下命令启动Docker容器：
 
         docker-compose up -d
 
-4. 启动Docker容器，默认为root用户。启动docker容器后，容器内操作和自己平时使用 linux 服务器一样，可以按照自己实验环境的需要安装依赖的库（建议创建一个普通用户，以防你做出不必要的误操作）
+4. 启动Docker容器，默认为root用户。启动Docker容器后，容器内操作和自己平时使用 linux 服务器一样，可以按照自己实验环境的需要安装依赖的库（建议创建一个普通用户，以防你做出不必要的误操作）
 
 5. 在容器内下载Anaconda (Anaconda下载网址: https://repo.anaconda.com/archive/)
 
@@ -48,9 +49,9 @@
 
 ## 在物理机上对Docker容器挂载的文件夹内容做修改
 
-在 docker 容器中，/workplace 一般直接挂载了物理机上的某个目录(例如: coding_docker/)。这个时候会发现 coding_docker/ 的所属用户和所属用户组都变为了root。也就意味着我们在物理机上没有办法修改 coding_docker/ 中的文件。
+在 Docker 容器中，/workplace 一般直接挂载了物理机上的某个目录(例如: coding_docker/)。这个时候会发现 coding_docker/ 的所属用户和所属用户组都变为了root。也就意味着我们在物理机上没有办法修改 coding_docker/ 中的文件。
 
-我们可以进入docker容器，使用docker容器中的root账户修改 /workplace 的访问权限。
+我们可以进入Docker容器，使用Docker容器中的root账户修改 /workplace 的访问权限。
 
 ## 在个人电脑上，使用VSCode直接连接Docker容器
 
@@ -62,6 +63,14 @@
 进入Docker的插件页面，选择对应容器，就可以用VSCode打开它。
 
 ## 参考资料：
-1. Docker中安装Anaconda:
+1. Docker中安装Anaconda：
 
         https://www.cnblogs.com/xiaoli1996/p/15959469.html
+        
+2. Docker官方文档：
+
+      https://docs.docker.com/
+      
+3. Docker中文文档：
+
+      https://yeasy.gitbook.io/docker_practice/
