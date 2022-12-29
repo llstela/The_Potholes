@@ -4,7 +4,7 @@
 
 ## 常用Docker命令
 
-对镜像的操作:
+对镜像的操作：
 
       (不建议使用docker run，建议使用docker-compose up -d)
       docker run -p 10789:22  -it --name="sxh_conda_1131" --runtime=nvidia -v ~/coding_docker:/coding 3fb93e546a31 /bin/bash  # 实例化 --runtime=nvidia
@@ -12,7 +12,7 @@
       docker images
       docker-compose up -d
 
-对容器的操作:
+对容器的操作：
 
       docker start sxh_conda_1131
       docker stop sxh_conda_1131
@@ -23,7 +23,7 @@
 
 ## 在Docker上使用Anaconda
 
-1. 使用NVIDIA官方镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本: https://hub.docker.com/r/nvidia/cuda/)
+1. 使用NVIDIA官方镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/)
 
         docker pull nvidia/cuda:11.3.1-cudnn8-runtime-ubuntu20.04
 
@@ -41,7 +41,7 @@
 
 4. 启动Docker容器，默认为root用户。启动Docker容器后，容器内操作和自己平时使用 linux 服务器一样，可以按照自己实验环境的需要安装依赖的库（建议创建一个普通用户，以防你做出不必要的误操作）
 
-5. 在容器内下载Anaconda (Anaconda下载网址: https://repo.anaconda.com/archive/)
+5. 在容器内下载Anaconda (Anaconda下载网址：https://repo.anaconda.com/archive/)
 
    使用wget命令在容器内下载：
 
@@ -49,7 +49,7 @@
 
 ## 在物理机上对Docker容器挂载的文件夹内容做修改
 
-在 Docker 容器中，/workplace 一般直接挂载了物理机上的某个目录(例如: coding_docker/)。这个时候会发现 coding_docker/ 的所属用户和所属用户组都变为了root。也就意味着我们在物理机上没有办法修改 coding_docker/ 中的文件。
+在 Docker 容器中，/workplace 一般直接挂载了物理机上的某个目录(例如：coding_docker/)。这个时候会发现 coding_docker/ 的所属用户和所属用户组都变为了root。也就意味着我们在物理机上没有办法修改 coding_docker/ 中的文件。
 
 我们可以进入Docker容器，使用Docker容器中的root账户修改 /workplace 的访问权限。
 
@@ -69,8 +69,8 @@
         
 2. Docker官方文档：
 
-      https://docs.docker.com/
+        https://docs.docker.com/
       
 3. Docker中文文档：
 
-      https://yeasy.gitbook.io/docker_practice/
+        https://yeasy.gitbook.io/docker_practice/
