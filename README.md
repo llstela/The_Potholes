@@ -2,7 +2,7 @@
 本文档建立之目的在于记录自己踩过的坑。往今后不再犯，或者在跳坑前先做观望。
 
 ## 关于Docker
-请看这个文档: [Anaconda_Potholes](https://github.com/llstela/The_Potholes/blob/main/Anaconda_Potholes.md)
+请看这个文档: [Docker_Potholes](https://github.com/llstela/The_Potholes/blob/main/Docker_Potholes.md)
 ## 关于Anaconda
 请看这个文档: [Anaconda_Potholes](https://github.com/llstela/The_Potholes/blob/main/Anaconda_Potholes.md)
 
