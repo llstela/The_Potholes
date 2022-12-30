@@ -24,7 +24,8 @@
  查看Docker内部版本号：
             
       cat /etc/issue 
-
+## 在Docker上搭建COde Server
+      http://www2.scut.edu.cn/huanghan/2021/1021/c9791a448046/page.htm
 ## 在Docker上使用Anaconda
 
 下面介绍的方法是从CUDA开始安装Anaconda，搭完环境之后才发现 continuumio/anaconda3 就可以直接用torch+GPU，不过该镜像是基于debian，而下面的方法可以获得基于ubuntu的anaconda
