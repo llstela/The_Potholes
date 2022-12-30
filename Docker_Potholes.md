@@ -20,6 +20,10 @@
       docker rm
       docker cp # 在容器和物理机之间搬运资源
       docker-compose exec ${容器名} bash
+      
+ 查看Docker内部版本号：
+            
+      cat /etc/issue 
 
 ## 在Docker上使用Anaconda
 
