@@ -24,7 +24,7 @@
  查看Docker内部版本号：
             
       cat /etc/issue 
-## 在Docker上搭建COde Server
+## 在Docker上搭建Code Server
       http://www2.scut.edu.cn/huanghan/2021/1021/c9791a448046/page.htm
 ## 在Docker上使用Anaconda
 
