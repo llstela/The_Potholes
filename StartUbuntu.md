@@ -1,5 +1,5 @@
 # StartUbuntu
-    从这里快速开启你的Ubuntu之旅
+从这里快速开启你的Ubuntu之旅
     
 ## 镜像源
 推荐使用 北京外国语大学 的镜像，无论是conda、ubuntu、pypi的镜像源都很可靠：
