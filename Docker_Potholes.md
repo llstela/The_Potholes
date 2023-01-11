@@ -38,7 +38,9 @@ NVIDIA 官方网站：
       
       https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html(选择对应镜像版本)
 上述镜像可以直接获取基于Anaconda的Pytorch环境。
+
 下面介绍的方法是从CUDA开始安装Anaconda，其实没有必要这么麻烦，可以使用上面提到的镜像。
+
 1. 使用CUDA镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/)
 
         docker pull nvidia/cuda:11.3.1-cudnn8-runtime-ubuntu20.04
