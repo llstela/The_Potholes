@@ -1,7 +1,16 @@
 # Docker_Potholes 
 实验室内的Docker使用简记。
 
+## OpenCV报错
+在Docker使用OpenCV可能会遇到如下报错
 
+      >>>from .cv2 import *
+      ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+      
+ 这是因为Docker缺少了OpenCV的依赖，运行如下命令：
+ 
+      apt-get update && apt-get install libgl1
+      
 ## 常用Docker命令
 
 对镜像的操作：
