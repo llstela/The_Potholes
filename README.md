@@ -20,3 +20,5 @@
 推荐使用 北京外国语大学 的镜像，无论是conda、ubuntu、pypi的镜像源都很可靠：
 https://mirrors.bfsu.edu.cn/
 
+## 快速开启Ubuntu之旅
+[StartUbuntu](https://github.com/llstela/The_Potholes/blob/main/StartUbuntu.md)
