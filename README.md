@@ -24,4 +24,4 @@ https://mirrors.bfsu.edu.cn/
 [StartUbuntu](https://github.com/llstela/The_Potholes/blob/main/StartUbuntu.md)
 
 ## 服务器常见问题排查
-[Server_problem]()
+[Server_problem](https://github.com/llstela/The_Potholes/blob/main/Server_Problem.md)
