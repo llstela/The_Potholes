@@ -22,3 +22,6 @@ https://mirrors.bfsu.edu.cn/
 
 ## 快速开启Ubuntu之旅
 [StartUbuntu](https://github.com/llstela/The_Potholes/blob/main/StartUbuntu.md)
+
+## 服务器常见问题排查
+[Server_problem]()
