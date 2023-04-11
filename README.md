@@ -25,3 +25,6 @@ https://mirrors.bfsu.edu.cn/
 
 ## 服务器常见问题排查
 [Server_problem](https://github.com/llstela/The_Potholes/blob/main/Server_Problem.md)
+
+## 论文笔记 OneNote 公式编辑器入门
+[Word_Formulation](https://github.com/llstela/The_Potholes/blob/main/Word_Formulation.md)
