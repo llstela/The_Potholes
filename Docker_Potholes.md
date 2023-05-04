@@ -79,7 +79,8 @@ NVIDIA 官方网站：
 
 4. 启动Docker容器，默认为root用户。启动Docker容器后，容器内操作和自己平时使用 linux 服务器一样，可以按照自己实验环境的需要安装依赖的库（建议创建一个普通用户，以防你做出不必要的误操作）
 
-5. 在容器内下载Anaconda (Anaconda下载网址：https://repo.anaconda.com/archive/)。**如果你本来已经用的是pytorch的镜像，里面已经安装好了anaconda。**
+5. 在容器内下载Anaconda (Anaconda下载网址：https://repo.anaconda.com/archive/)。
+**如果你本来已经用的是pytorch的镜像，里面已经安装好了anaconda。**
 
    使用wget命令在容器内下载：
 
