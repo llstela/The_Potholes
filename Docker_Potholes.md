@@ -60,7 +60,8 @@ NVIDIA 官方网站：
 
 **下面介绍的方法是从CUDA开始安装Anaconda，其实没有必要这么麻烦，可以直接使用上面提到的镜像，然后按照下面的步骤搭建环境。**
 
-1. 使用CUDA镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/ )。 **组里服务器上已经有很多pytorch相关的镜像，这一步可以跳过。**
+1. 使用CUDA镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/ )。 
+**组里服务器上已经有很多pytorch相关的镜像，这一步可以跳过。**
 
         docker pull nvidia/cuda:11.3.1-cudnn8-runtime-ubuntu20.04
 
