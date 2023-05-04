@@ -45,7 +45,7 @@
       cat /etc/issue 
 ## 在Docker上搭建Code Server
       http://www2.scut.edu.cn/huanghan/2021/1021/c9791a448046/page.htm
-## 在Docker上使用Anaconda
+## (快速上手) 在Docker上使用Anaconda
 
 Docker官方镜像网站：搜索torch
       
@@ -56,11 +56,11 @@ NVIDIA 官方网站：
       https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch (介绍)
       
       https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html(选择对应镜像版本)
-上述镜像可以直接获取基于Anaconda的Pytorch环境。
+上述镜像可以直接获取基于Anaconda的Pytorch环境。组里服务器上其实已经安装了很多pytorch镜像，直接用就可以。
 
-下面介绍的方法是从CUDA开始安装Anaconda，其实没有必要这么麻烦，可以使用上面提到的镜像。
+**下面介绍的方法是从CUDA开始安装Anaconda，其实没有必要这么麻烦，可以直接使用上面提到的镜像，然后按照下面的步骤搭建环境。**
 
-1. 使用CUDA镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/)
+1. 使用CUDA镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/ )。 **组里服务器上已经有很多pytorch相关的镜像，这一步可以跳过。**
 
         docker pull nvidia/cuda:11.3.1-cudnn8-runtime-ubuntu20.04
 
@@ -78,11 +78,16 @@ NVIDIA 官方网站：
 
 4. 启动Docker容器，默认为root用户。启动Docker容器后，容器内操作和自己平时使用 linux 服务器一样，可以按照自己实验环境的需要安装依赖的库（建议创建一个普通用户，以防你做出不必要的误操作）
 
-5. 在容器内下载Anaconda (Anaconda下载网址：https://repo.anaconda.com/archive/)
+5. 在容器内下载Anaconda (Anaconda下载网址：https://repo.anaconda.com/archive/)。**如果你本来已经用的是pytorch的镜像，里面已经安装好了anaconda。**
 
    使用wget命令在容器内下载：
 
        wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+6. 如何在打开 终端terminal 的同时自动启动anaconda：
+
+   在命令行输入：
+   
+            conda init
 
 ## 在物理机上对Docker容器挂载的文件夹内容做修改
 
