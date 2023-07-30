@@ -1,9 +1,14 @@
 # The_Potholes
 本文档建立之目的在于记录自己踩过的坑。望今后不再犯，或者在跳坑前先做观望。
 
+## 入门使用git
+  最近在学习git的使用方法，非常推荐这个可视化学习平台：[learnGitBranching](https://learngitbranching.js.org/?demo=&locale=zh_CN)
+  记录了学习期间涉及的命令：[git_cmd](https://github.com/llstela/The_Potholes/blob/main/git_cmd.md)
+  
 ## 关于Docker
 请看这个文档：
 [Docker_Potholes](https://github.com/llstela/The_Potholes/blob/main/Docker_Potholes.md)
+
 ## 关于Anaconda
 请看这个文档：
 [Anaconda_Potholes](https://github.com/llstela/The_Potholes/blob/main/Anaconda_Potholes.md)
