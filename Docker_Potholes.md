@@ -20,7 +20,25 @@
  
             apt-get install libglib2.0-0
     
-      
+## 常用pytorch镜像选取
+推荐使用2个常用的镜像。
+
+Docker镜像网站上的pytorch/pytorch镜像，例如：
+
+            pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel  # 尾缀有devel,runtime, 如果出现库装不上的情况，建议尝试devel
+            
+来自NVIDIA的nvcr.io/nvidia/pytorch镜像，例如：
+
+            nvcr.io/nvidia/pytorch:23.04-py3  # 根据不同的环境需求，替换23.04为xx.xx
+            
+NVIDIA不同版本镜像对应的配置信息：
+
+            https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html#framework-matrix-2022
+            
+NVIDIA镜像使用教程：
+
+            https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
+            
 ## 常用Docker命令
 
 对镜像的操作：
