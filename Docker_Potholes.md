@@ -21,6 +21,11 @@
             apt-get install libglib2.0-0
     
 ## 常用pytorch镜像选取
+
+"pytorch/pytorch"镜像只是构建了PyTorch的环境，不构建CUDA。因此如果物理机上的CUDA版本与PyTorch不匹配。将不能正常运行代码。
+
+"nvcr.io/nvidia/pytorch:xx.yy-py3"包括了CUDA的构建，可能可以跑一些古老的代码。
+
 推荐使用2个常用的镜像。
 
 Docker镜像网站上的pytorch/pytorch镜像，例如：
