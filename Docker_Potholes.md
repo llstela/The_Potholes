@@ -7,18 +7,17 @@
 
             from .cv2 import *
             ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+   
+   这是因为Docker缺少了OpenCV的依赖，运行如下命令：
+               apt-get update && apt-get install libgl1
       
-      这是因为Docker缺少了OpenCV的依赖，运行如下命令：
- 
-            apt-get update && apt-get install libgl1
-      
-2. 另外一个错误：
+3. 另外一个错误：
 
-            libgthread-2.0.so.0: cannot open shared object file
+                libgthread-2.0.so.0: cannot open shared object file
       
    运行如下命令：
  
-            apt-get install libglib2.0-0
+               apt-get install libglib2.0-0
     
 ## 常用pytorch镜像选取
 
