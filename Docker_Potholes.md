@@ -39,6 +39,10 @@ NVIDIA镜像使用教程：
 
             https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
             
+其他镜像，访问Docker官方镜像网站：
+      
+      https://hub.docker.com/
+            
 ## 常用Docker命令
 
 对镜像的操作：
@@ -63,20 +67,7 @@ NVIDIA镜像使用教程：
       cat /etc/issue 
 ## 在Docker上搭建Code Server
       http://www2.scut.edu.cn/huanghan/2021/1021/c9791a448046/page.htm
-## (快速上手) 在Docker上使用Anaconda
-
-Docker官方镜像网站：搜索torch
-      
-      https://hub.docker.com/
-
-NVIDIA 官方网站：
-
-      https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch (介绍)
-      
-      https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html(选择对应镜像版本)
-上述镜像可以直接获取基于Anaconda的Pytorch环境。组里服务器上其实已经安装了很多pytorch镜像，直接用就可以。
-
-**下面介绍的方法是从CUDA开始安装Anaconda，其实没有必要这么麻烦，可以直接使用上面提到的镜像，然后按照下面的步骤搭建环境。**
+## 从CUDA开始安装Anaconda
 
 1. 使用CUDA镜像，里面已经帮我们装好了CUDA和cuDNN (选择版本：https://hub.docker.com/r/nvidia/cuda/ )。 
 **组里服务器上已经有很多pytorch相关的镜像，这一步可以跳过。**
