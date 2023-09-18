@@ -9,6 +9,7 @@
             ImportError: libGL.so.1: cannot open shared object file: No such file or directory
    
    这是因为Docker缺少了OpenCV的依赖，运行如下命令：
+   
                apt-get update && apt-get install libgl1
       
 3. 另外一个错误：
