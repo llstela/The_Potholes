@@ -12,13 +12,17 @@
    
                apt-get update && apt-get install libgl1
       
-3. 另外一个错误：
+2. 另外一个错误：
 
                 libgthread-2.0.so.0: cannot open shared object file
       
    运行如下命令：
  
                apt-get install libglib2.0-0
+
+3. 组合处理上述命令：
+
+               apt-get update && apt-get install libgl && apt-get install libglib2.0-0 --all-yes
     
 ## 常用pytorch镜像选取
 
