@@ -3,7 +3,7 @@
 
 ## OpenCV报错
 
-1. 在Docker使用OpenCV可能会遇到如下报错
+1. 在Docker使用OpenCV (e.g. opencv-python==4.6.0.66)可能会遇到如下报错
 
             from .cv2 import *
             ImportError: libGL.so.1: cannot open shared object file: No such file or directory
