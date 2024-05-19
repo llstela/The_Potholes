@@ -22,7 +22,7 @@
 
 3. 组合处理上述命令：
 
-               apt-get update && apt-get install libgl && apt-get install libglib2.0-0 --all-yes
+               apt-get update && apt-get install libgl1 -y && apt-get install libglib2.0-0 -y
     
 ## 常用pytorch镜像选取
 
