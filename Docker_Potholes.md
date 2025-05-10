@@ -10,7 +10,7 @@
    
    这是因为Docker缺少了OpenCV的依赖，运行如下命令：
    
-               apt-get update && apt-get install libgl1
+               apt update && apt install libgl1
       
 2. 另外一个错误：
 
@@ -18,11 +18,11 @@
       
    运行如下命令：
  
-               apt-get install libglib2.0-0
+               apt install libglib2.0-0
 
 3. 组合处理上述命令：
 
-               apt-get update && apt-get install libgl1 -y && apt-get install libglib2.0-0 -y
+               apt update && apt install libgl1 -y && apt install libglib2.0-0 -y
     
 ## 常用pytorch镜像选取
 
