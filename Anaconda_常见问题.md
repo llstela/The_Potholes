@@ -1,5 +1,12 @@
 # 在Anaconda踩过的坑
   觉得自己很有必要记录一下自己经常踩的坑和常用到的资料。
+## 使用conda-pack迁移环境时SSL报错\
+  出现报错：
+  
+    ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:1007)
+  运行如下命令：
+  
+    conda update ca-certificates
 ## Anaconda常用命令：
     https://blog.csdn.net/ligous/article/details/124209700
 ## 服务器常用命令(基于Anaconda)：
